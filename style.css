@@ -1,0 +1,62 @@
+body { background-color: rgb(240, 235, 233);
+    margin: 0;
+    padding: 0 ;
+}
+
+header {
+ display: flex ;
+ justify-content: left;
+ width: 100%;
+ align-items: center;
+ box-shadow: 5px 10px #888;
+
+}
+
+header img {
+ width: 120px ;
+ margin: 20px 50px;
+ 
+}
+
+li {
+    display: inline;
+    justify-content: right;
+    margin:50px ;
+}
+
+li a {
+text-decoration: none;
+color: rgb(105, 111, 122);
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#intro { text-align: center;
+}
+#intro > h1 { color: rgb(51, 53, 52);
+
+ }
+ #intro p { text-align: left;
+    width: 80%; margin: 30px auto;
+    color: rgb(18, 19, 19);
+
+ }
+
+#contact { 
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+}
+
+ #contact h1 { color: #395464;
+ }
+
+ input { width:50% ;
+
+ }
+ textarea { margin-left: 120px;}
+
+ footer { text-align: center;
+
+ }
